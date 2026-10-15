@@ -36,46 +36,30 @@ Loan defaults can result in significant financial losses for lending institution
 ### Dataset Features
 
 * #### Applicant Information
-
-person\_age
-
-person\_income
-
-person\_home\_ownership
-
-person\_emp\_length
+1. person\_age
+2. person\_income
+3. person\_home\_ownership
+4. person\_emp\_length
 
 
 
 * #### Loan Information
-
-loan\_intent
-
-loan\_grade
-
-loan\_amnt
-
-loan\_int\_rate
-
-loan\_percent\_income
+1. loan\_intent
+2. loan\_grade
+3. loan\_amnt
+4. loan\_int\_rate
+5. loan\_percent\_income
 
 
 
 * #### Credit History Information
-
-cb\_person\_default\_on\_file
-
-cb\_person\_cred\_hist\_length
+1. cb\_person\_default\_on\_file
+2. cb\_person\_cred\_hist\_length
 
 
 
 * #### Target Variable
-
-loan\_default\_status
-
-0 = No Default
-
-1 = Default
+1. loan\_default\_status (0 = No Default, 1 = Default)
 
 
 
@@ -158,8 +142,4 @@ The trained model is exposed through a REST API using FastAPI and deployed using
 Biprasish Singha
 
 Aspiring Data Scientist
-
-
-
-
 
