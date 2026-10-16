@@ -25,6 +25,14 @@ The solution follows a complete end-to-end Machine Learning workflow including:
 
 
 
+#### Live Demo
+
+Application: https://credit-risk-predictor-7iu9.onrender.com
+
+API Docs: https://credit-risk-predictor-7iu9.onrender.com/docs
+
+
+
 ### Problem Statement
 
 
